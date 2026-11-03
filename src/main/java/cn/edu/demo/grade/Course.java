@@ -21,4 +21,6 @@ public class Course {
     public String toString() {
         return code + "-" + name;
     }
+
+    return 0;
 }
