@@ -17,6 +17,9 @@ public class GradeService {
     }
 
     public String level(double average) {
+        if(average < 0 || average > 100) {
+            throw new IllegalArgumentException("平均分必须在0到100之间");
+        }
         if (average >= 90) {
             return "优秀";
         }
