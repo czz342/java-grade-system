@@ -21,4 +21,7 @@ public class Student {
     public String toString() {
         return id + "-" + name;
     }
+    public boolean isPassed() {
+       return score >= 60;
+}
 }
