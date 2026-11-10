@@ -7,7 +7,8 @@ public class Main {
         gradeBook.addScore(new Course("SE101", "软件工程导论"), 92);
         gradeBook.addScore(new Course("CS201", "数据结构"), 86);
         gradeBook.addScore(new Course("DB301", "数据库原理"), 88);
-
+        gradeBook.addScore(new Course("AB401","提交测试",91));
+        
         new GradeService().printReport(gradeBook);
     }
 }
